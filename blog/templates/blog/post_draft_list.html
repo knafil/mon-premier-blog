@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2113.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">{% extends 'blog/base.html' %} {% block content %}<br>
+</span></p>
+<p class="p1"><span class="s1">&lt;div data-gb-custom-block data-tag="extends" data-0='blog/base.html'&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;div data-gb-custom-block data-tag="block"&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;div data-gb-custom-block data-tag="for"&gt;</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="post"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p class="date"&gt;created: {{ post.created_date|date:'d-m-Y' }}&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;h1&gt;&lt;a href="</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">&lt;div data-gb-custom-block data-tag="url" data-0='post_detail'&gt;"&gt;{{ post.titre }}&lt;/a&gt;&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;{{ post.texte|truncatechars:200 }}&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><br>
+{% endblock %}<span class="Apple-converted-space"> </span></span></p>
+</body>
+</html>
